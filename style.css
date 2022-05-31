@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #B4C6C1;
+    --secondary-color: #F9F5F0;
+    --tertiary-color: #AB875F;
+    --quarternary-color: #422918;
+    --font-set: 'Oleo Script', cursive;
+    --second-font-set: 'Fira Sans', sans-serif;
+    --third-font-set: 'Actor', sans-serif;
+}
+
+body {
+    font-family: var(--third-font-set);
+    margin: 0;
+    background-color: var(--secondary-color);
+}
+
+/*Styling af navigationsbar*/
+.navigation {
+    background-color: var(--primary-color);
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.logo {
+    width: 130px;
+    display: block;
+    padding: 0px 8px;
+}
+  
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+  
+.nav-ul a {
+    text-decoration: none;
+    color: var(--quarternary-color);
+    font-family: var(--font-set);
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+  
+.nav-ul a.active {
+    text-decoration-line: underline;
+}
+  
+/*Her er stylingen der laver hamburger menuen.*/
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: var(--quarternary-color);
+    font-size: 34px;
+    display: block;
+    padding: 0px 15px;
+}
+  
+.hamburger:focus {
+    outline: none;
+}
+  
+.nav-ul.show {
+    display: flex;
+}
+  
+.show {
+    display: block;
+}
+
+@media screen and (min-width: 750px) {
+    /*Styling af hamburgermenu og navbar*/
+    .hamburger {
+      display: none;
+    }
+  
+    .nav-ul {
+      display: block;
+      flex-direction: none;
+      margin: 0;
+      width: auto;
+    }
+    .nav-ul a {
+        padding: 6px;
+    }
+    .nav-ul li {
+      display: inline-block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    /*Styling af logo og navbar*/
+    .logo {
+      width: 140px;
+    }
+
+    .nav-ul a {
+        padding: 8px 10px;
+      }
+}
+
+@media screen and (min-width: 900px) {
+    /*Styling af logo og navbar*/
+    .logo {
+      width: 170px;
+      padding-left: 15px;
+    }
+
+    .nav-ul a {
+        font-size: 24px;
+    }
+
+    .nav-ul{
+        padding-right: 18px;
+    }
+}
+  
+@media screen and (min-width: 1000px) {
+    /*Styling af navbar*/
+    .nav-ul a {
+        padding: 8px 14px;
+    }
+}
+  
