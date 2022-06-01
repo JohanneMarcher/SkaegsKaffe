@@ -18,6 +18,32 @@ html{
     scroll-behavior: smooth;
 }
 
+/*Styling af tekster*/
+h1{
+    font-size: 42px;
+    font-family: var(--font-set);
+    color: var(--quarternary-color);
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    font-family: var(--font-set);
+    color: var(--quarternary-color);
+    text-align: center; 
+    margin: 10px;  
+    margin-top: 40px;
+}
+
+p{
+    font-size: 20px;
+    font-family: var(--third-font-set);
+    color: var(--quarternary-color);
+    text-align: center;
+    padding: 0px 20px;
+    margin: 0;     
+}
+
 /*Styling af navigationsbar*/
 .navigation {
     background-color: var(--primary-color);
@@ -94,7 +120,7 @@ html{
     margin: 10px;
     position: sticky;
     top: 70%;
-    margin-left: 90%;
+    margin-left: 85%;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.418);
 }
 
@@ -102,6 +128,7 @@ html{
 footer{
     background-color: var(--primary-color);
     padding: 20px;
+    margin-top: 70px;
 }
 
 .footerlogo{
@@ -148,7 +175,52 @@ footer i{
     padding: 4px 10px;
 }
 
+/*Styling af menu siden*/
+.coffeemenu div img{
+    width: 60%;
+    display: block;
+    margin: 0px auto;
+}
+
+.coffeemenu p{
+    padding: 0px 30px;
+}
+
+@media screen and (min-width: 420px) {
+    /*Styling af scroll-knap*/
+    .btn-scroll{
+        margin-left: 90%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    /*Styling af menu side*/
+    .coffeemenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 30px;
+    }
+
+    .coffeemenu div img{
+        width: 75%;
+    }
+}
+
 @media screen and (min-width: 750px) {
+    /*Styling af tekster*/
+    h1{
+        font-size: 70px;
+    }
+    
+    h2{
+        font-size: 50px;   
+    }
+    
+    p{
+        font-size: 22px;
+        padding: 0px 50px;  
+    }
+
     /*Styling af hamburgermenu og navbar*/
     .hamburger {
       display: none;
@@ -238,7 +310,12 @@ footer i{
 
     .nav-ul a {
         padding: 8px 10px;
-      }
+    }
+
+    /*Styling af menu side*/
+    .coffeemenu{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -262,5 +339,17 @@ footer i{
     .nav-ul a {
         padding: 8px 14px;
     }
+
+    /*Styling af menu side*/
+    .coffeemenu{
+        padding: 0px 90px;
+    }
 }
   
+
+@media screen and (min-width: 1350px) {
+    /*Styling af menu side*/
+    .coffeemenu{
+        padding: 0px 150px;
+    }
+}
