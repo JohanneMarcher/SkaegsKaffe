@@ -290,6 +290,18 @@ footer i{
     display: block
 }
 
+/*Styling til forside*/
+
+.header-forside{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(66, 41, 28, 0.374),rgba(66, 41, 28, 0.311)),url(img/hero-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 @media screen and (min-width: 340px) {
 /*Styling af kontakt og info siden*/
     .kontaktform{
