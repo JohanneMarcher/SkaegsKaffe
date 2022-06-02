@@ -330,10 +330,45 @@ footer i{
     text-transform: uppercase;
 }
 
+.tid-nyhed{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.nyheder{
+    padding-top: 2rem;
+}
+
 .instagram-nyhed{
     display: flex;
-    text-align: center;
     justify-content: center;
+}
+
+.forside-arrangement{
+    background-color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.arrangement-forside{
+    width: 100%;
+}
+
+.knap{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.knappen{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--quarternary-color);
+    background-color: var(--primary-color);
+    border: 1px solid #422918;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: var(--third-font-set);
+    text-transform: uppercase;
 }
 
 
