@@ -479,6 +479,12 @@ footer i{
     }
     
     /*Styling af arrangement siden*/
+    .arrangementbillede {
+        margin: 0 auto;
+        display: block;
+        width: 60%;
+    }
+    
     .pakkegrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -564,6 +570,10 @@ footer i{
 
 @media screen and (min-width: 1200px) {
     /*Styling af arrangement siden*/
+    .arrangementbillede {
+        width: 40%;
+    }
+    
     .pakkegrid {
         padding: 0px 100px; 
      } 
