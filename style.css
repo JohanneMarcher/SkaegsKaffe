@@ -371,9 +371,11 @@ footer i{
       margin: 0;
       width: auto;
     }
+
     .nav-ul a {
         padding: 6px;
     }
+    
     .nav-ul li {
       display: inline-block;
     }
