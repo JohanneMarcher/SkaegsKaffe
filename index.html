@@ -1,109 +1,134 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <!--lang="da" og charset="utf-8" omhandler sprog på hjemmesiden og tillader æ, ø og å-->
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Skæg's Kaffe | Forside</title>
-    <!--Linjen nedenunder er link og tilknytning videre til CSS dokument med styling-->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <!--Her er et link til animate.style-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <!--Link til fontawesome ikoner-->
-    <script
-      src="https://kit.fontawesome.com/e414acdc27.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--Link til vores skrifttyper på Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Actor&family=Fira+Sans:wght@700&family=Oleo+Script&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--Min header og navigationsbar-->
-    <header id="scroll" class="header-forside">
-      <nav class="navigation">
-        <a href="index.html"
-          ><img class="logo" src="logobrun.svg" alt="logo"
-        /></a>
-        <button class="hamburger" id="hamburger">
-          <i class="fas fa-bars"></i>
-        </button>
-        <ul class="nav-ul" id="nav-ul">
-          <li>
-            <a class="active" href="index.html">Forside</a>
-          </li>
-          <li>
-            <a href="menu.html">Menu</a>
-          </li>
-          <li>
-            <a href="arrangementer.html">Arrangementer</a>
-          </li>
-          <li>
-            <a href="omos.html">Om Skæg's Kaffe</a>
-          </li>
-          <li>
-            <a href="kontakt.html">Kontakt & info</a>
-          </li>
-        </ul>
-      </nav>
 
-      <div class="hero-tekst">
-        <h1>En skæg oplevelse med kaffe</h1>
-        <h3>Hos Skæg's Kaffe serveres der altid kvalitetskaffe, også selvom at det skal gå hurtigt </h3>
-      </div>
+<head>
+  <!--lang="da" og charset="utf-8" omhandler sprog på hjemmesiden og tillader æ, ø og å-->
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Skæg's Kaffe | Forside</title>
+  <!--Linjen nedenunder er link og tilknytning videre til CSS dokument med styling-->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!--Her er et link til animate.style-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Link til fontawesome ikoner-->
+  <script src="https://kit.fontawesome.com/e414acdc27.js" crossorigin="anonymous"></script>
+  <!--Link til vores skrifttyper på Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Actor&family=Fira+Sans:wght@700&family=Oleo+Script&display=swap"
+    rel="stylesheet" />
+</head>
 
-      <div class="hero-knap">
-        <a href="menu.html" class="hero-knappen">Se Menu</a>
-      </div>
+<body>
+  <!--Min header og navigationsbar-->
+  <header id="scroll" class="header-forside">
+    <nav class="navigation">
+      <a href="index.html"><img class="logo" src="logobrun.svg" alt="logo" /></a>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-ul" id="nav-ul">
+        <li>
+          <a class="active" href="index.html">Forside</a>
+        </li>
+        <li>
+          <a href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="arrangementer.html">Arrangementer</a>
+        </li>
+        <li>
+          <a href="omos.html">Om Skæg's Kaffe</a>
+        </li>
+        <li>
+          <a href="kontakt.html">Kontakt & info</a>
+        </li>
+      </ul>
+    </nav>
 
-    </header>
-    <!--Vores scroll button-->
-    <a href="#scroll" class="btn-scroll"> <i class="fa fa-angle-up"></i></a>
+    <div class="hero-tekst">
+      <h1>En skæg oplevelse med kaffe</h1>
+      <h3>Hos Skæg's Kaffe serveres der altid kvalitetskaffe, også selvom at det skal gå hurtigt </h3>
+    </div>
 
-    <!--Vores footer-->
-    <footer>
-      <img class="footerlogo" src="logobrun.svg" alt="logo" />
-      <section class="footerkontakt">
-        <h3>Kontakt</h3>
-        <p>Østerskovvej 34<br />4682 Tureby</p>
-        <p>Tlf: 28917581</p>
-        <a href="mailto:info@skaegskaffe.dk">Mail: info@skaegskaffe.dk</a>
-        <p>CVR-nr: 39710315</p>
-      </section>
-      <section class="footertider">
-        <h3>Åbningstider</h3>
+    <div class="hero-knap">
+      <a href="menu.html" class="hero-knappen">Se Menu</a>
+    </div>
+  </header>
+  <!--Vores scroll button-->
+  <a href="#scroll" class="btn-scroll"> <i class="fa fa-angle-up"></i></a>
+
+  <section class="tid-nyhed">
+    <div class="kontaktgrid">
+      <h2>Åbningstider</h2>
+      <h3>
+        OSB! Åbningstider kan variere grundet arrangementer. Tjek derfor
+        <a class="kontaktlink" href="index.html">nyheder</a>,
+        <a class="kontaktlink" href="https://www.facebook.com/skaegskaffe">Facebook</a>
+        eller
+        <a class="kontaktlink" href="https://www.instagram.com/skaegskaffe/">Instagram</a>
+        for ændring i åbningstider.
+      </h3>
+      <div class="openinggrid">
+        <p>Mandag<br />Tirsdag<br />Onsdag<br />Torsdag<br />Fredag</p>
         <p>
-          OBS! Vær opmærksom på at ændring af åbningstider kan ske under ugens
-          forløb.
+          6:30 - 10:30<br />6:30 - 10:30<br />6:30 - 10:30<br />
+          6:30 - 10:30<br />6:30 - 10:30
         </p>
-        <p>Man-Fre:<br />06.30-10.30</p>
-      </section>
-      <section class="footerfind">
-        <h3>Find det du søger...</h3>
-        <a href="kontakt.html">Praktiske informationer</a>
-        <a href="arrangementer.html">Arrangementer</a>
-        <a href="omos.html">Produkter</a>
-        <a href="menu.html">Menu</a>
-      </section>
-      <section class="footersome">
-        <h3>Følg mig</h3>
-        <a href="https://www.facebook.com/skaegskaffe">
-          <i class="fa-brands fa-facebook-f"></i>@skaegskaffe
-        </a>
-        <a href="https://www.instagram.com/skaegskaffe/">
-          <i class="fa-brands fa-instagram"></i>@skaegskaffe
-        </a>
-      </section>
-      <img class="footerbeans" src="coffeebeans.svg" alt="coffeebeans" />
-    </footer>
-    <!--linket til javascript-->
-    <script src="script.js"></script>
-  </body>
+      </div>
+      <img class="footerbeans" src="coffeebeans.svg" alt="Coffee Beans" />
+    </div>
+
+    <div class="nyheder">
+      <h1>Nyt fra Skæg's Kaffe</h1>
+      <div class="instagram-nyhed">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-a8599e5a-3e30-48ac-bd26-c5d350b0b456"></div>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <!--Vores footer-->
+  <footer>
+    <img class="footerlogo" src="logobrun.svg" alt="logo" />
+    <section class="footerkontakt">
+      <h3>Kontakt</h3>
+      <p>Østerskovvej 34<br />4682 Tureby</p>
+      <p>Tlf: 28917581</p>
+      <a href="mailto:info@skaegskaffe.dk">Mail: info@skaegskaffe.dk</a>
+      <p>CVR-nr: 39710315</p>
+    </section>
+    <section class="footertider">
+      <h3>Åbningstider</h3>
+      <p>
+        OBS! Vær opmærksom på at ændring af åbningstider kan ske under ugens
+        forløb.
+      </p>
+      <p>Man-Fre:<br />06.30-10.30</p>
+    </section>
+    <section class="footerfind">
+      <h3>Find det du søger...</h3>
+      <a href="kontakt.html">Praktiske informationer</a>
+      <a href="arrangementer.html">Arrangementer</a>
+      <a href="omos.html">Produkter</a>
+      <a href="menu.html">Menu</a>
+    </section>
+    <section class="footersome">
+      <h3>Følg mig</h3>
+      <a href="https://www.facebook.com/skaegskaffe">
+        <i class="fa-brands fa-facebook-f"></i>@skaegskaffe
+      </a>
+      <a href="https://www.instagram.com/skaegskaffe/">
+        <i class="fa-brands fa-instagram"></i>@skaegskaffe
+      </a>
+    </section>
+    <img class="footerbeans" src="coffeebeans.svg" alt="coffeebeans" />
+  </footer>
+  <!--linket til javascript-->
+  <script src="script.js"></script>
+</body>
+
 </html>
