@@ -374,6 +374,43 @@ footer i{
 
 
 
+.anmeldelser{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.box{
+    background-color: #fff;
+    margin: 2rem 1.5rem;
+
+}
+
+.box-info{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.anmeldelse-billed{
+    width: 60%;
+}
+
+.anmeldelser h4{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.kaffebønner-illustration{
+    display: flex;
+    justify-content: center;
+}
+
+.bønner-illustration{
+    width: 30%;
+}
+
+
+
 @media screen and (min-width: 340px) {
 /*Styling af kontakt og info siden*/
     .kontaktform{
