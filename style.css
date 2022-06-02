@@ -367,7 +367,7 @@ footer i{
   
     .nav-ul {
       display: block;
-      flex-direction: none;
+      flex-direction: unset;
       margin: 0;
       width: auto;
     }
