@@ -237,6 +237,42 @@ footer i{
     margin: 0px auto;
 }
 
+/*Styling af arrangement siden*/
+
+.arrangementbillede{ 
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.pakke1 {
+    background-color: var(--primary-color);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pakke2 {
+    background-color: var(--primary-color);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pakkeh3 {
+    padding: 0px 20px;
+    margin: 10px;
+}
+
+.prispakke {
+    font-size: 30px; 
+    margin: 25px;
+    padding: 25px;
+}
+
+.pakkeloesningbilleder {
+    width: 100%;
+}
 
 @media screen and (min-width: 340px) {
 /*Styling af kontakt og info siden*/
@@ -273,6 +309,17 @@ footer i{
     .openinggrid{
         padding: 0px 22%;
     }
+
+    /*Styling af arrangement siden*/
+    .pakke1 {
+        width: 70%;
+    }
+    
+    .pakke2 {
+        width: 70%;
+    }
+  
+
 }
 
 @media screen and (min-width: 750px) {
@@ -407,6 +454,13 @@ footer i{
     .openinggrid p{
         padding: 0;
     }
+    
+    /*Styling af arrangement siden*/
+    .pakkegrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+    }   
 }
 
 @media screen and (min-width: 800px) {
