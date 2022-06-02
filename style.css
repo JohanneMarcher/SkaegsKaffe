@@ -300,6 +300,36 @@ footer i{
     background-size: cover;
 }
 
+.hero-tekst{
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.hero-tekst h1{
+    color: var(--secondary-color);
+}
+
+.hero-tekst h3{
+    color: var(--secondary-color);
+}
+
+.hero-knap{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hero-knappen{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--quarternary-color);
+    background-color: var(--secondary-color);
+    border: 1px solid #422918;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: var(--third-font-set);
+    text-transform: uppercase;
+}
+
 
 
 @media screen and (min-width: 340px) {
