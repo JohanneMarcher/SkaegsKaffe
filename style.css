@@ -295,7 +295,7 @@ footer i{
 .header-forside{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(66, 41, 28, 0.374),rgba(66, 41, 28, 0.311)),url(img/hero-img.jpg);
+    background-image: linear-gradient(rgba(66, 41, 28, 0.505),rgba(66, 41, 28, 0.541)),url(img/hero-img.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -342,6 +342,7 @@ footer i{
 .instagram-nyhed{
     display: flex;
     justify-content: center;
+    padding-top: 1.5rem;
 }
 
 .forside-arrangement{
@@ -371,33 +372,32 @@ footer i{
     text-transform: uppercase;
 }
 
+.forside-arrangement .kontaktvogn{
+    padding-top: 2rem;
+}
+
 
 
 
 .anmeldelser{
     padding-top: 3rem;
-    padding-bottom: 4rem;
-}
-
-.box{
-    background-color: #fff;
-    margin: 2rem 1.5rem;
-
+    padding-bottom: 2rem;
 }
 
 .box-info{
+    background-color: #fff;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin: 2rem 1.5rem;
 }
 
 .anmeldelse-billed{
     width: 60%;
 }
 
-.anmeldelser h4{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+.anmeldelser p{
+    padding: 1.5rem 1.5rem 
 }
 
 .kaffebønner-illustration{
@@ -406,7 +406,7 @@ footer i{
 }
 
 .bønner-illustration{
-    width: 30%;
+    width: 60%;
 }
 
 
@@ -430,6 +430,15 @@ footer i{
     /*Styling af kontakt og info siden*/
     .kontaktform{
         height: 960px;
+    }
+
+    /*Styling af forside*/
+    .bønner-illustration{
+        width: 50%;
+    }
+
+    .anmeldelse-billed{
+        width: 48%;
     }
 }
 
@@ -462,6 +471,39 @@ footer i{
     .arrangementform {
         height: 1350px;
     }
+
+    /*Styling af forside*/
+    .hero-tekst{
+        padding-top: 5rem;
+    }
+
+    .arrangement-forside{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .anmeldelse-billed{
+        width: 45%;
+    }
+
+    .box-info{
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        margin: 3rem 3.5rem;
+    }
+
+    .anmeldelser p{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    
+    .bønner-illustration{
+        width: 40%;
+    }
+
   
 
 }
@@ -622,6 +664,43 @@ footer i{
         width: 60%;
         height: 400px;
     }
+
+    /*Styling af forside*/
+    .hero-tekst{
+        padding: 0rem 5rem 0rem 5rem;
+    }
+
+    .hero-tekst h1{
+        margin-bottom: 0rem;
+        margin-top: 3rem;
+    }
+
+    .tid-nyhed{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nyheder{
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .tid-nyhed .kontaktgrid{
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .anmeldelse-billed{
+        width: 45%;
+    }
+
+    .box-info{
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+        margin: 4rem 5rem;
+    }
+
+    .bønner-illustration{
+        width: 30%;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -638,6 +717,50 @@ footer i{
     .coffeemenu{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /*Styling af forside*/
+    .tid-nyhed{
+        padding: 0px 30px;
+    }
+
+    .anmeldelser{
+        padding-bottom: 0;
+    }
+
+    .anmeldelse-billed{
+        width: 30%;
+    }
+
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 30px;
+    }
+
+    .box-info{
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        margin: 1rem;
+    }
+
+    .anmeldelser p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 18px;
+    }
+
+    .anmeldelser h3{
+        font-size: 22px;
+    }
+
+    .stjerner{
+        width: 20px;
+    }
+
+    .bønner-illustration{
+        width: 20%;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -688,6 +811,40 @@ footer i{
     .arrangementkalender {
         width: 50%;
     }
+
+    /*Styling af forside*/
+
+    .hero-tekst{
+        padding-top: 4rem;
+    }
+
+    .tid-nyhed{
+        padding: 0px 90px;
+    }
+
+    .anmeldelser{
+        margin: 0;
+    }
+
+    .box{
+        padding: 0px 90px;
+    }
+
+    .box-info{
+        margin: 1rem;
+    }
+
+    .anmeldelse-billed{
+        width: 50%;
+    }
+
+    .nyheder{
+        padding: 0rem 2rem 0rem 2rem;
+    }
+
+    .tid-nyhed .kontaktgrid{
+        padding: 0rem 2rem 0rem 2rem;
+    }
 }
   
 
@@ -700,6 +857,13 @@ footer i{
     .pakkegrid {
         padding: 0px 100px; 
      } 
+
+     /*Styling af forside*/
+     .tid-nyhed{
+        padding: 0px 80px;
+    }
+
+
 }
 
 
