@@ -429,6 +429,51 @@ footer i{
 }
 
 
+/*Styling af om os siden*/
+
+.skaegivogn{ 
+    width: 100%;
+    margin-top: 20px;
+}
+
+.skaeg-historie{
+    background-image: url(img/sektionbaggrund.png);
+    background-size: cover;
+}
+
+.anders{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.vognillustration{
+    width: 60%;
+}
+
+.om-produkter{
+    background-color: #F9F5F0;
+}
+
+.overskrift img{
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.kaffekop-illustration{
+    display: flex;
+    justify-content: center;
+}
+
+.kaffe-illustration{
+    width: 60%;
+}
+
+.kaffe-historie img{
+    width: 100%;
+}
+
+
 
 @media screen and (min-width: 340px) {
 /*Styling af kontakt og info siden*/
@@ -871,6 +916,11 @@ footer i{
     .bønner-illustration{
         width: 30%;
     }
+
+/*Styling af om os siden*/
+
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -942,6 +992,10 @@ footer i{
     .overskrift{
         padding-top: 5rem;
     }
+
+        /*Styling af om os siden*/
+
+
 }
   
 @media screen and (min-width: 1000px) {
@@ -1056,7 +1110,7 @@ footer i{
     }
 
 
-
+    /*Styling af om os siden*/
 
 
 
@@ -1077,4 +1131,7 @@ footer i{
         width: 40%;
    
     }
+
+    /*Styling af om os siden*/
+
 }
