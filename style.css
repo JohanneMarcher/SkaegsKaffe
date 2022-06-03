@@ -330,6 +330,11 @@ footer i{
     text-transform: uppercase;
 }
 
+.hero-knappen:hover{
+    background: var(--primary-color);
+    transition: 0.3s;
+}
+
 .tid-nyhed{
     padding-top: 1rem;
     padding-bottom: 5rem;
@@ -371,12 +376,17 @@ footer i{
     display: inline-block;
     text-decoration: none;
     color: var(--quarternary-color);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border: 1px solid #422918;
     padding: 15px 30px;
     cursor: pointer;
     font-family: var(--third-font-set);
     text-transform: uppercase;
+}
+
+.knappen:hover{
+    background: var(--primary-color);
+    transition: 0.3s;
 }
 
 .forside-arrangement .kontaktvogn{
@@ -402,6 +412,7 @@ footer i{
 
 .anmeldelse-billed{
     width: 60%;
+    border-radius: 100%;
 }
 
 .anmeldelser p{
