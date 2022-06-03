@@ -20,7 +20,7 @@ html{
 
 /*Styling af tekster*/
 h1{
-    font-size: 42px;
+    font-size: 38px;
     font-family: var(--font-set);
     color: var(--quarternary-color);
     text-align: center;
@@ -37,14 +37,14 @@ h2{
 
 h3{
     font-family: var(--second-font-set);
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     color: var(--quarternary-color);
     padding: 5px 20px;
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--third-font-set);
     color: var(--quarternary-color);
     text-align: center;
@@ -351,7 +351,14 @@ footer i{
     padding-bottom: 6rem;
 }
 
-.arrangement-forside{
+.forside-produkter{
+    background-image: url(img/sektionbaggrund.png);
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.produkter-arrangement-billede{
     width: 100%;
 }
 
@@ -376,8 +383,9 @@ footer i{
     padding-top: 2rem;
 }
 
-
-
+.forside-produkter .kontaktvogn{
+    padding-top: 2rem;
+}
 
 .anmeldelser{
     padding-top: 3rem;
@@ -433,12 +441,30 @@ footer i{
     }
 
     /*Styling af forside*/
+    .hero-tekst{
+        padding: 5rem 1rem 0rem 1rem;
+    }
     .bønner-illustration{
         width: 50%;
     }
 
     .anmeldelse-billed{
         width: 48%;
+    }
+
+    .tid-nyhed{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .forside-arrangement {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .forside-produkter {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
@@ -477,8 +503,8 @@ footer i{
         padding-top: 5rem;
     }
 
-    .arrangement-forside{
-        width: 80%;
+    .produkter-arrangement-billede{
+        width: 90%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -498,10 +524,24 @@ footer i{
         padding-left: 3rem;
         padding-right: 3rem;
     }
-
     
     .bønner-illustration{
         width: 40%;
+    }
+
+    .tid-nyhed{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .forside-arrangement {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    .forside-produkter {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
   
@@ -511,11 +551,11 @@ footer i{
 @media screen and (min-width: 750px) {
     /*Styling af tekster*/
     h1{
-        font-size: 70px;
+        font-size: 60px;
     }
     
     h2{
-        font-size: 50px;   
+        font-size: 46px;   
     }
     
     p{
@@ -687,15 +727,135 @@ footer i{
         padding: 0rem 3rem 0rem 3rem;
     }
 
+    .forside-arrangement h2{
+        text-align: left;
+        padding: 0px 50px;
+        font-size: 40px;
+    }
+
+    .forside-arrangement h3{
+        text-align: left;
+        padding: 0px 50px;
+    }
+
+    .forside-arrangement p{
+        text-align: left;
+    }
+
+    .forside-arrangement{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+
+    .overskrift{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .tekstbox{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;  
+    }
+
+    .produkter-arrangement-billede{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+    }
+
+    .knap-illustration{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .forside-arrangement .kontaktvogn{
+        padding: 0;
+    }
+
+    .knap{
+        padding: 30px 0px 0px 50px;
+    }
+
+    .forside-produkter h2{
+        text-align: left;
+        padding: 0px 50px;
+        font-size: 40px;
+    }
+
+    .forside-produkter h3{
+        text-align: left;
+        padding: 0px 50px;
+    }
+
+    .forside-produkter p{
+        text-align: left;
+    }
+
+    .forside-produkter{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+
+    .forside-produkter .overskrift{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .forside-produkter .tekstbox{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;  
+    }
+
+    .forside-produkter .produkter-arrangement-billede{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+    }
+
+    .forside-produkter .kontaktvogn{
+        padding: 0;
+    }
+
     .anmeldelse-billed{
-        width: 45%;
+        width: 50%;
+    }
+
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0px 30px;
     }
 
     .box-info{
         padding-top: 4rem;
-        padding-bottom: 5rem;
-        margin: 4rem 5rem;
+        padding-bottom: 2rem;
+        margin: 10px;
     }
+
+    .anmeldelser p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 18px;
+    }
+
 
     .bønner-illustration{
         width: 30%;
@@ -726,30 +886,8 @@ footer i{
         padding-bottom: 0;
     }
 
-    .anmeldelse-billed{
-        width: 30%;
-    }
-
-    .box{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 0px 30px;
-    }
-
     .box-info{
-        padding-top: 4rem;
-        padding-bottom: 1rem;
         margin: 1rem;
-    }
-
-    .anmeldelser p{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 18px;
-    }
-
-    .anmeldelser h3{
-        font-size: 22px;
     }
 
     .stjerner{
@@ -780,6 +918,18 @@ footer i{
     /*Styling af kontakt og info siden*/
     .openinggrid{
         padding: 0px 60px;
+    }
+
+    .header-forside{
+        background-image: linear-gradient(rgba(66, 41, 28, 0.505),rgba(66, 41, 28, 0.541)),url(img/hero-img2.jpg);
+    }
+
+    .hero-tekst{
+        padding-top: 5rem;
+    }
+
+    .overskrift{
+        padding-top: 5rem;
     }
 }
   
@@ -826,11 +976,11 @@ footer i{
     }
 
     .box{
-        padding: 0px 90px;
+        padding: 0px 80px;
     }
 
     .box-info{
-        margin: 1rem;
+        margin: 0.5rem;
     }
 
     .anmeldelse-billed{
@@ -861,6 +1011,42 @@ footer i{
      .tid-nyhed{
         padding: 0px 80px;
     }
+
+    .header-forside{
+        background-image: url,;
+    }
+
+    .forside-arrangement h2{
+        padding: 0px 70px;
+    }
+
+    .forside-arrangement h3{
+        padding: 0px 80px;
+    }
+
+    .forside-arrangement p{
+        padding: 0px 80px;
+    }
+
+    .forside-produkter h2{
+        padding: 0px 70px;
+    }
+
+    .forside-produkter h3{
+        padding: 0px 80px;
+    }
+
+    .forside-produkter p{
+        padding: 0px 80px;
+    }
+
+    .knap{
+        padding: 0;
+    }
+
+
+
+
 
 
 }
