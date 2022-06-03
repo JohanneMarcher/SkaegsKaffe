@@ -429,16 +429,25 @@ footer i{
 }
 
 
+
 /*Styling af om os siden*/
 
+
 .skaegivogn{ 
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
     margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .skaeg-historie{
     background-image: url(img/sektionbaggrund.png);
     background-size: cover;
+    padding-top: 3rem;
 }
 
 .anders{
@@ -446,31 +455,62 @@ footer i{
     margin-top: 20px;
 }
 
-.vognillustration{
-    width: 60%;
+
+.vogn-illustration{
+    display: flex;
+    justify-content: center; 
+}
+
+.kaffevogn-ai{
+    width: 30%;
+    padding-bottom: 10px;
 }
 
 .om-produkter{
     background-color: #F9F5F0;
+    padding-top: 3rem;
 }
 
-.overskrift img{
-    width: 20%;
+
+.ikon-logo{
     display: inline-flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
+
+.ikon-billede{
+    width: 20%;
+}
+
 
 .kaffekop-illustration{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
 
 .kaffe-illustration{
-    width: 60%;
+    width: 30%;
+    padding-bottom: 10px;
 }
 
-.kaffe-historie img{
+.kaffe-historie{
+    background-color: #fff;
+    padding-top: 3rem;
+}
+
+.goats-billede{
     width: 100%;
+    margin-bottom: 20px;
+}
+
+.bean-illustration{
+    display: flex;
+    justify-content: center;  
+}
+
+.coffeebean{
+    width: 30%;
+    padding-bottom: 10px;
 }
 
 
@@ -919,6 +959,16 @@ footer i{
 
 /*Styling af om os siden*/
 
+.om-skaeg{
+    display: flexbox;
+    align-items: center;
+}
+
+.skaegivogn{
+    width: 50%;
+    margin-left: 20px;
+}
+
 
 
 }
@@ -995,6 +1045,16 @@ footer i{
 
         /*Styling af om os siden*/
 
+     .om-skaeg{
+
+    }
+    
+    .skaegivogn{
+        display: block;
+        justify-self: left;
+        width: 50%;
+    }
+
 
 }
   
@@ -1058,6 +1118,18 @@ footer i{
 
     .tid-nyhed .kontaktgrid{
         padding: 0rem 2rem 0rem 2rem;
+    }
+
+
+    /*Styling af om os siden*/
+
+    .om-skaeg{
+
+    }
+
+    .skaegivogn{
+        display: flex;
+        justify-self: left;
     }
 }
   
