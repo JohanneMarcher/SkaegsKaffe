@@ -480,6 +480,7 @@ footer i{
 
 .ikon-billede{
     width: 20%;
+    margin: 3px;
 }
 
 
@@ -561,6 +562,16 @@ footer i{
     .forside-produkter {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    /*Styling af om Skæg*/
+
+    .om-textbox{
+        
+    }
+
+    .skaegivogn{
+       
     }
 }
 
@@ -959,17 +970,66 @@ footer i{
 
 /*Styling af om os siden*/
 
-.om-skaeg{
-    display: flexbox;
-    align-items: center;
+.om-textbox{
+    width: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    position: relative;
+    padding: 0px 30px;
+}
+
+.om-textbox p{
+    text-align:initial;
+    padding-right: 1rem;
+    padding-left: 1rem;
+       
 }
 
 .skaegivogn{
-    width: 50%;
-    margin-left: 20px;
+    width: 100%;
 }
 
+.skaeg-historie{
+    width: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
 
+}
+
+.skaeg-historie .anders{
+    width: 100%
+}
+
+.kaffevogn-ai{
+   width: 30%;
+   position: left;
+}
+
+.kaffe-historie h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ikon-billede{
+    margin: 3px;
+}
+
+.kaffe-historie .textbox{
+    
+    
+}
+
+.coffeebean{
+    
+}
+
+.ikon-billede{
+    margin: 3px;
+}
 
 }
 
@@ -1123,14 +1183,20 @@ footer i{
 
     /*Styling af om os siden*/
 
-    .om-skaeg{
-
+    .om-textbox{
+        width: auto;
+        margin: auto;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        position: relative;
     }
 
     .skaegivogn{
-        display: flex;
-        justify-self: left;
+        width: 70%;
     }
+   
 }
   
 
@@ -1184,7 +1250,23 @@ footer i{
 
     /*Styling af om os siden*/
 
-
+    .skaeg-historie{
+        width: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+    
+    }
+    
+    .skaeg-historie .anders{
+        width: 100%
+        
+    }
+    
+    .kaffevogn-ai{
+       width: 30%;
+    }
 
 }
 
