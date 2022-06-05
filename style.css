@@ -970,66 +970,96 @@ footer i{
 
 /*Styling af om os siden*/
 
-.om-textbox{
-    width: auto;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    position: relative;
-    padding: 0px 30px;
-}
+    .om-textbox{
+        width: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        position: relative;
+        padding: 0px 30px;
+    }
 
-.om-textbox p{
-    text-align:initial;
-    padding-right: 1rem;
-    padding-left: 1rem;
-       
-}
+    .om-textbox p{
+        text-align:initial;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        
+    }
 
-.skaegivogn{
-    width: 100%;
-}
+    .skaegivogn{
+        width: 100%;
+    }
 
-.skaeg-historie{
-    width: auto;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
+    .skaeg-historie{
+        width: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
 
-}
+    }
 
-.skaeg-historie .anders{
-    width: 100%
-}
+    .skaeg-historie .anders{
+        width: 100%
+    }
 
-.kaffevogn-ai{
-   width: 30%;
-   position: left;
-}
+    .kaffevogn-ai{
+    width: 30%;
+    position: left;
+    }
 
-.kaffe-historie h1{
-    text-align: center;
-    margin-bottom: 30px;
-}
 
-.ikon-billede{
-    margin: 3px;
-}
+    .kaffe-illustration{
+        width: 20%;
+    }
 
-.kaffe-historie .textbox{
+
+    .ikon-billede{
+        margin: 3px;
+    }
+
+    .kaffe-historie h1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .historie-textbox{
+        width: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
     
-    
-}
+    }
 
-.coffeebean{
-    
-}
+    .historie-textbox p{
+        text-align:initial;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 
-.ikon-billede{
-    margin: 3px;
-}
+    .goats-billede{
+        display: block;
+        width: 50vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+
+    .bean-illustration{
+        justify-content: right;  
+    }
+    
+    .coffeebean{
+        width: 20%;
+    }
+
+
+    .ikon-billede{
+        margin: 3px;
+    }
+
 
 }
 
@@ -1067,6 +1097,7 @@ footer i{
 
     .bønner-illustration{
         width: 20%;
+        justify-content: right;
     }
 
 }
@@ -1287,5 +1318,11 @@ footer i{
     }
 
     /*Styling af om os siden*/
+
+    .ikon-billede{
+        display: block;
+        justify-content: center;
+        
+    }
 
 }
