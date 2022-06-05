@@ -1134,18 +1134,14 @@ footer i{
         padding-top: 5rem;
     }
 
-        /*Styling af om os siden*/
 
-     .om-skaeg{
-
-    }
+    /*Styling af om os siden*/
     
     .skaegivogn{
         display: block;
         justify-self: left;
         width: 50%;
     }
-
 
 }
   
@@ -1319,10 +1315,10 @@ footer i{
 
     /*Styling af om os siden*/
 
-    .ikon-billede{
-        display: block;
+    .ikon-logo{
+        display: flex;
         justify-content: center;
-        
+
     }
 
 }
