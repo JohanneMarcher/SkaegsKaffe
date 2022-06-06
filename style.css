@@ -566,13 +566,6 @@ footer i{
 
     /*Styling af om Skæg*/
 
-    .om-textbox{
-        
-    }
-
-    .skaegivogn{
-       
-    }
 }
 
 @media screen and (min-width: 600px) {
@@ -970,25 +963,39 @@ footer i{
 
 /*Styling af om os siden*/
 
-    .om-textbox{
+    .om-skaeg{
         width: auto;
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        position: relative;
         padding: 0px 30px;
     }
 
+    .om-textbox{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;  
+    }
+
+    .om-textbox h3{
+        text-align: left;
+    }
+
     .om-textbox p{
-        text-align:initial;
+        text-align: initial;
         padding-right: 1rem;
         padding-left: 1rem;
-        
     }
 
     .skaegivogn{
         width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;  
+  
+
     }
 
     .skaeg-historie{
@@ -996,22 +1003,26 @@ footer i{
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        position: relative;
-
     }
 
-    .skaeg-historie .anders{
+    .textbox{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;  
+    }
+
+   .anders{
         width: 100%
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+
     }
 
     .kaffevogn-ai{
-    width: 30%;
-    position: left;
-    }
-
-
-    .kaffe-illustration{
-        width: 20%;
+        width: 30%;
     }
 
 
@@ -1137,11 +1148,7 @@ footer i{
 
     /*Styling af om os siden*/
     
-    .skaegivogn{
-        display: block;
-        justify-self: left;
-        width: 50%;
-    }
+
 
 }
   
@@ -1214,9 +1221,7 @@ footer i{
         width: auto;
         margin: auto;
         text-align: left;
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
         position: relative;
     }
 
@@ -1280,9 +1285,6 @@ footer i{
     .skaeg-historie{
         width: auto;
         margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        position: relative;
     
     }
     
@@ -1291,9 +1293,6 @@ footer i{
         
     }
     
-    .kaffevogn-ai{
-       width: 30%;
-    }
 
 }
 
