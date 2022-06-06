@@ -136,7 +136,6 @@ p{
 footer{
     background-color: var(--primary-color);
     padding: 20px;
-    margin-top: 70px;
 }
 
 .footerlogo{
@@ -501,7 +500,7 @@ footer i{
 
 .goats-billede{
     width: 100%;
-    margin-bottom: 20px;
+    
 }
 
 .bean-illustration{
@@ -509,8 +508,12 @@ footer i{
 }
 
 .coffeebean{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
     padding-bottom: 10px;
+    
 }
 
 
@@ -1012,7 +1015,7 @@ footer i{
    .anders{
         width: 100%;
         margin: 0;
-        height: 70vh;
+        height: 100%;
         display: block;
         object-fit: cover;
         grid-column-start: 2;
@@ -1043,6 +1046,7 @@ footer i{
     .kaffe-historie{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 0;
     }
 
     .historie-textbox{
@@ -1067,7 +1071,7 @@ footer i{
     }
 
     .goats-billede{
-        height: 100vh;
+        height: 100%;
         display: block;
         object-fit: cover;
         grid-column-start: 1;
@@ -1077,22 +1081,15 @@ footer i{
         
     }
 
-    .bean-illustration{
-        display: block;
-        justify-content: right;
-        margin: 0;
-    }
 
     .coffeebean{ 
         width: 20%;
         margin: 0;
-        display: grid;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: span 1;
+        display: block;
+        margin-left: auto;
+        
     }
-    
+
     
 
 }
