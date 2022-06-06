@@ -505,7 +505,6 @@ footer i{
 }
 
 .bean-illustration{
-    display: flex;
     justify-content: center;  
 }
 
@@ -1041,26 +1040,28 @@ footer i{
 
 
 
-
-    .kaffe-historie h1{
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .historie-textbox{
-        width: auto;
-        margin: auto;
+    .kaffe-historie{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        position: relative;
-    
+    }
+
+    .historie-textbox h2{
+        
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: span 1;
+     
     }
 
     .historie-textbox p{
         text-align: initial;
-        padding-top: 5rem;
         padding-right: 2rem;
         padding-left: 2rem;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: span 1;
 
     }
 
@@ -1076,15 +1077,16 @@ footer i{
     }
 
 
-    .bean-illustration{
-        justify-content: right;  
-        padding-top: -50%;
+    .coffeebean{ 
+        width: 20%;
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: span 1;
     }
     
-    .coffeebean{
-        width: 20%;
-    }
-
+    
 
 }
 
