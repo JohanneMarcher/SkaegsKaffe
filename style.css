@@ -177,7 +177,7 @@ footer section{
 }
 
 footer i{
-    font-size: 24px;
+    font-size: 40px;
     padding: 4px 10px;
 }
 
@@ -190,6 +190,22 @@ footer i{
 
 .coffeemenu p{
     padding: 0px 30px;
+}
+
+.coffeemenu{
+    margin-bottom: 100px;
+}
+
+.prisskilt{
+    font-family: var(--font-set);
+    font-size: 20px;
+    background-color: var(--primary-color);
+    border-radius: 100%;
+    width: 50px;
+    padding: 14px;
+    text-align: center;
+    margin-left: 65%;
+    margin-top: -30px;
 }
 
 /*Styling af kontakt og info siden*/
@@ -213,7 +229,7 @@ footer i{
     color: var(--quarternary-color);
     display: block;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .openinggrid{
@@ -749,11 +765,7 @@ footer i{
     /*Styling af kontakt og info siden*/
     .kontaktform{
         height: 920px;
-    }
-
-    .kontaktlinksingle{
-        font-size: 22px;
-    }    
+    }   
 
     .infosection{
         display: grid;
