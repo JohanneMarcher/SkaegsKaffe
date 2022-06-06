@@ -310,7 +310,7 @@ footer i{
 .header-forside{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(66, 41, 28, 0.505),rgba(66, 41, 28, 0.541)),url(img/hero-img.jpg);
+    background-image: linear-gradient(rgba(66, 41, 28, 0.669),rgba(66, 41, 28, 0.683)),url(img/hero-img.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -1166,7 +1166,7 @@ footer i{
     }
 
     .header-forside{
-        background-image: linear-gradient(rgba(66, 41, 28, 0.505),rgba(66, 41, 28, 0.541)),url(img/hero-img2.jpg);
+        background-image: linear-gradient(rgba(66, 41, 28, 0.623),rgba(66, 41, 28, 0.655)),url(img/hero-img2.jpg);
     }
 
     .hero-tekst{
@@ -1176,10 +1176,6 @@ footer i{
     .overskrift{
         padding-top: 5rem;
     }
-
-
-    /*Styling af om os siden*/
-    
 
 
 }
@@ -1342,9 +1338,5 @@ footer i{
         width: 40%;
    
     }
-
-    /*Styling af om os siden*/
-
-
 
 }
