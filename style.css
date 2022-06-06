@@ -1045,23 +1045,24 @@ footer i{
         grid-template-columns: 1fr 1fr;
     }
 
-    .historie-textbox h2{
-        
+    .historie-textbox{
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: span 1;
-     
+    }
+
+    .historie-textbox h2{
+        text-align: left;
+        padding-right: 2rem;
+        padding-left: 2rem;
+
     }
 
     .historie-textbox p{
         text-align: initial;
         padding-right: 2rem;
         padding-left: 2rem;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: span 1;
 
     }
 
@@ -1076,9 +1077,15 @@ footer i{
         
     }
 
+    .bean-illustration{
+        display: block;
+        justify-content: right;
+        margin: 0;
+    }
 
     .coffeebean{ 
         width: 20%;
+        margin: 0;
         display: grid;
         grid-column-start: 2;
         grid-column-end: 2;
