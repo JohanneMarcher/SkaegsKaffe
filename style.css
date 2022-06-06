@@ -490,7 +490,7 @@ footer i{
 }
 
 .kaffe-illustration{
-    width: 30%;
+    width: 20%;
     padding-bottom: 10px;
 }
 
@@ -993,14 +993,12 @@ footer i{
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 1;
-        grid-row-end: 1;  
-  
-
+        grid-row-end: 1; 
     }
 
     .skaeg-historie{
         width: auto;
-        margin: auto;
+        padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -1013,22 +1011,36 @@ footer i{
     }
 
    .anders{
-        width: 100%
+        width: 100%;
+        margin: 0;
+        height: 70vh;
+        display: block;
+        object-fit: cover;
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: span 2;
-
     }
 
     .kaffevogn-ai{
         width: 30%;
     }
 
-
-    .ikon-billede{
+    .ikon-logo{
         margin: 3px;
+        display: flex;
+        justify-content: center;
     }
+
+
+    .om-produkter p{
+        margin-top: 3rem;
+        padding-right: 11rem;
+        padding-left: 11rem;
+    }
+
+
+
 
     .kaffe-historie h1{
         text-align: center;
@@ -1045,30 +1057,32 @@ footer i{
     }
 
     .historie-textbox p{
-        text-align:initial;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        text-align: initial;
+        padding-top: 5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+
     }
 
     .goats-billede{
+        height: 100vh;
         display: block;
-        width: 50vw;
-        height: 50vh;
         object-fit: cover;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        
     }
 
 
     .bean-illustration{
         justify-content: right;  
+        padding-top: -50%;
     }
     
     .coffeebean{
         width: 20%;
-    }
-
-
-    .ikon-billede{
-        margin: 3px;
     }
 
 
@@ -1285,7 +1299,6 @@ footer i{
     .skaeg-historie{
         width: auto;
         margin: auto;
-    
     }
     
     .skaeg-historie .anders{
@@ -1314,10 +1327,6 @@ footer i{
 
     /*Styling af om os siden*/
 
-    .ikon-logo{
-        display: flex;
-        justify-content: center;
 
-    }
 
 }
