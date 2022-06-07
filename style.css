@@ -801,6 +801,7 @@ footer i{
         margin: 0 auto;
         display: block;
         width: 60%;
+        padding-top: 50px;
     }
     
     .pakkegrid {
@@ -965,8 +966,8 @@ footer i{
     }
 
     .anmeldelser p{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         font-size: 18px;
     }
 
